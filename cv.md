@@ -114,3 +114,5 @@ React app to assemble burgers, place orders and track order statuses.
 - _10.2024 - current_: Rolling Scopes Schools: Node.js, JavaScript Frontend courses
 
 ### English
+
+Somewhere around B2. Mostly acquired with web development self-studying.
