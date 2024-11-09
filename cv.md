@@ -76,6 +76,37 @@ which results in:
 
 ### Experience
 
+#### Timber Distribution [repo](https://gitlab.com/jacarteaux1362/timber-dis-v2) [deploy](https://timber-dis.netlify.app/)
+
+An SPA website with products gallery. Optimised for gesture and keyboard navigation.
+
+-   meta tags are loaded with php for seo
+-   navigate in products and categories with a keyboard
+-   filter the products
+-   optimized for mobile devices screens
+
+![Timber Distribution Demo](https://arkaev.netlify.app/Screenshot-2024-08-29-at-20-04-00-2302_10642819024548472350.png)
+
+---
+
+#### Stellar Burgers [repo](https://github.com/ha308ing/stellar-burgers) [deploy](https://stellar-burgers-ha308ing.netlify.app/)
+
+React app to assemble burgers, place orders and track order statuses.
+
+-   started with JavaScript and React class components, transitioned to Typescript and functional components
+-   redux tookit, thunks for api controller
+-   react portal for modals
+-   react-dnd library to interact with the constructor
+-   react-router for routing, protected routes
+-   websocket for orders feeds
+-   ui tests with the Cypress framework
+-   redux reducers, api tests with the Jest
+-   mobile layout
+-   deployed with netlify
+-   docker image, github action to build the image
+
+![Stellar Burgers Demo](https://arkaev.netlify.app/portfolio/stellar-burgers/stellar-burgers-demo-0.webp)
+
 ### Education
 
 ### English
