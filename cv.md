@@ -109,4 +109,8 @@ React app to assemble burgers, place orders and track order statuses.
 
 ### Education
 
+- _06.2008 - 06.2012_: Novosibirsk State Technical University
+- _10.2023 - 08.2024_: Yandex Practicum Courses: Middle Frontend Developer + React
+- _10.2024 - current_: Rolling Scopes Schools: Node.js, JavaScript Frontend courses
+
 ### English
