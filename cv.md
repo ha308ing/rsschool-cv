@@ -13,6 +13,19 @@ I love web development and programming in general because it alllows to bring an
 
 ### Skills
 
+- JavaScript
+	- Typescript
+	- React, Redux, Redux Toolkit
+- Builders
+	- Vite
+	- Webpack
+	- Gulp
+- HTML, PUG
+-  CSS
+	- Sass
+	- postcss
+- Git, GitHub
+
 ### Code
 
 ### Experience
