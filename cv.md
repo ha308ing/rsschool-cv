@@ -8,6 +8,9 @@
 
 ### Summary
 
+I develop websites and aimed to master new technologies.
+I love web development and programming in general because it alllows to bring any idea to life.
+
 ### Skills
 
 ### Code
