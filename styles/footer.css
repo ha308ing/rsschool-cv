@@ -13,3 +13,9 @@
     width: 6rem;
     height: auto;
 }
+
+@media (min-width: 1060px) {
+    .cv_footer {
+        z-index: initial;
+    }
+}
