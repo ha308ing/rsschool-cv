@@ -1,0 +1,10 @@
+.cv_main {
+    max-inline-size: var(--base-width);
+    margin-inline: auto;
+    margin-bottom: 250px;
+    background: #fff;
+}
+
+.cv_subtitle {
+    padding-block-start: 2rem;
+}

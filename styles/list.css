@@ -1,0 +1,22 @@
+.cv_list {
+    list-style: none;
+    line-height: 2;
+    /* font-size: clamp(1.5rem; */
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-inline-start: 0;
+    font-size: 0.8em;
+}
+
+.cv_list .cv_list {
+    padding-inline-start: 2rem;
+}
+
+.cv_list_spaced {
+    line-height: 3;
+}
+
+.cv_list_styled {
+    list-style-type: "- ";
+    padding-inline-start: 1em;
+}
