@@ -8,3 +8,8 @@
     margin-bottom: 250px;
     z-index: -1;
 }
+
+.rss_logo {
+    width: 6rem;
+    height: auto;
+}
