@@ -17,13 +17,6 @@
     line-height: 1;
 }
 
-.cv_header__menu {
-    background: #ffffff88;
-    position: fixed;
-    bottom: 1rem;
-    right: 5rem;
-}
-
 .cv_header_avatar {
     animation: avatar_rotate infinite 2s linear;
     height: 100%;
