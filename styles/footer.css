@@ -1,0 +1,10 @@
+.cv_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 250px;
+    bottom: -250px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    z-index: -1;
+}
