@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="cv_main">
+            <header class="cv_header">
+                <h1 class="cv_header__name">Ivan Arkaev</h1>
+                <img
+                    class="cv_header_avatar"
+                    src="img/avatar.png"
+                    alt="Ivan Arkaev"
+                >
+            </header>
+            <section id="summary">
+                <h2 class="cv_subtitle">Summary</h2>
+                <p>I develop websites and aimed to master new technologies.</p>
+                <p>
+                    I love web development and programming in general because it
+                    alllows to bring any idea to life.
+                </p>
+            </section>
+            <section id="skills">
+                <h2 class="cv_subtitle">Skills</h2>
+                <ul class="cv_list cv_list_spaced cv_list_styled">
+                    <li>
+                        JavaScript
+                        <ul class="cv_list cv_list_spaced">
+                            <li>Typescript</li>
+                            <li>React, Redux, Redux Toolkit</li>
+                            <li>
+                                Builders
+                                <ul class="cv_list cv_list_spaced">
+                                    <li>Vite</li>
+                                    <li>Webpack</li>
+                                    <li>Gulp</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>HTML, PUG</li>
+                    <li>
+                        CSS
+                        <ul class="cv_list cv_list_spaced">
+                            <li>Sass</li>
+                            <li>postcss</li>
+                        </ul>
+                    </li>
+                    <li>Git, GitHub</li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2 class="cv_subtitle">Code Examples</h2>
+                <p>
+                    Last API I discovered was
+                    <a
+                        href="https://developer.mozilla.org/en-US/docs/Web/API/Popover_API"
+                        >Popover API</a
+                    >
+                    that allows easily implement modals and overlays (<a
+                        href="https://jsfiddle.net/sne14/ycLvw402/1/"
+                        >jsfiddle snippet</a
+                    >):
+                </p>
+                <pre>
+&lt;button popovertarget="popoverId" id="b"&gt;Open&lt;/button&gt;
+
+&lt;div id="popoverId" popover&gt;
+    &lt;button
+        id="closePopover"
+        popovertarget="popoverId"
+        popovertargetaction="hide"
+    &gt;
+        Close
+    &lt;/button&gt;
+    Bye!
+&lt;/div&gt;
+
+&lt;script&gt;
+    popoverId.togglePopover();
+&lt;/script&gt;
+
+&lt;style&gt;
+    #popoverId {
+        --red: #ff1f1f;
+        --pink: #ff9999;
+        --color: var(--red);
+        border-color: var(--color);
+    }
+
+    #popoverId::backdrop {
+        background: var(--color);
+        opacity: 0.4;
+    }
+
+    #popoverId:popover-open {
+        --color: var(--pink);
+        color: var(--color);
+    }
+&lt;/style&gt;
+</pre
+                >
+                <p>which results in:</p>
+                <img
+                    src="https://i.postimg.cc/X7xgCgbj/image.png"
+                    alt="Stellar Burgers Demo"
+                >
+            </section>
+            <section id="experience">
+                <h2 class="cv_subtitle">Experience</h2>
+                <section>
+                    <header class="project_header">
+                        <h3>Stellar Burgers</h3>
+                        <div class="project_links">
+                            <a
+                                href="https://github.com/ha308ing/stellar-burgers"
+                                class="link_icon link_repo"
+                                >repo</a
+                            >
+                            <a
+                                href="https://stellar-burgers-ha308ing.netlify.app"
+                                class="link_icon link_deploy"
+                                >deploy</a
+                            >
+                        </div>
+                    </header>
+                    <p>
+                        React app to assemble burgers, place orders and track
+                        order statuses.
+                    </p>
+                    <ul class="cv_list cv_list_styled">
+                        <li>
+                            started with JavaScript and React class components,
+                            transitioned to Typescript and functional components
+                        </li>
+                        <li>redux tookit, thunks for api controller</li>
+                        <li>
+                            react portal for modals - react-dnd library to
+                            interact with the constructor
+                        </li>
+                        <li>react-router for routing, protected routes</li>
+                        <li>websocket for orders feeds</li>
+                        <li>ui tests with the Cypress framework</li>
+                        <li>redux reducers, api tests with the Jest</li>
+                        <li>mobile layout</li>
+                        <li>deployed with netlify</li>
+                        <li>docker image, github action to build the image</li>
+                    </ul>
+                    <img
+                        alt="Stellar Burgers
+                    Demo"
+                        src="https://arkaev.netlify.app/portfolio/stellar-burgers/stellar-burgers-demo-0.webp"
+                    >
+                </section>
+
+                <section>
+                    <header class="project_header">
+                        <h3>Timber Distribution</h3>
+                        <div class="project_links">
+                            <a
+                                href="https://gitlab.com/jacarteaux1362/timber-dis-v2"
+                                class="link_icon link_repo"
+                                >repo</a
+                            >
+                            <a
+                                href="https://timber-dis.netlify.app"
+                                class="link_icon link_deploy"
+                                >deploy</a
+                            >
+                        </div>
+                    </header>
+
+                    <p>
+                        An SPA website with products gallery. Optimised for
+                        gesture and keyboard navigation.
+                    </p>
+                    <ul class="cv_list cv_list_styled">
+                        <li>meta tags are loaded with php for seo</li>
+                        <li>
+                            navigate in products and categories with a keyboard
+                        </li>
+                        <li>filter the products</li>
+                        <li>optimized for mobile devices screens</li>
+                    </ul>
+                    <img
+                        src="https://arkaev.netlify.app/Screenshot-2024-08-29-at-20-04-00-2302_10642819024548472350.png"
+                        alt="Timber Distribution
+                        Demo"
+                    >
+                </section>
+            </section>
+            <section id="education">
+                <h2 class="cv_subtitle">Education</h2>
+                <ul class="cv_list cv_list_spaced">
+                    <li>
+                        <span class="education_date">06.2008 - 06.2012</span>
+                        Novosibirsk State Technical University
+                    </li>
+                    <li>
+                        <span class="education_date">10.2023 - 08.2024</span>
+                        Yandex Practicum Courses: Middle Frontend Developer +
+                        React
+                    </li>
+                    <li>
+                        <span class="education_date">10.2024 - current</span>
+                        Rolling Scopes Schools: Node.js, JavaScript Frontend
+                        courses
+                    </li>
+                </ul>
+            </section>
+            <section id="english">
+                <h2 class="cv_subtitle">English</h2>
+                <p>
+                    Somewhere around B2. Mostly acquired with web development
+                    self-studying.
+                </p>
+            </section>
+            <section id="contacts">
+                <h2 class="cv_subtitle">Contacts</h2>
+                <ul class="cv_list cv_list_spaced">
+                    <li>
+                        Email:
+                        <a href="mailto:ha308ing@outlook.com"
+                            >ha308ing@outlook.com</a
+                        >
+                    </li>
+                    <li>Phone: <a href="tel:+37409612312">+37409612312</a></li>
+                    <li>
+                        Website:
+                        <a href="https://arkaev.netlify.app"
+                            >arkaev.netlify.app</a
+                        >
+                    </li>
+                    <li>
+                        Linkedin:
+                        <a href="https://linkedin.com/in/ivan-arkaev"
+                            >in/ivan-arkaev</a
+                        >
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="cv_footer">
+            <ul class="cv_list">
+                <li>
+                    <a href="https://rs.school/courses/javascript">
+                        <img
+                            class="rss_logo"
+                            alt="RSS Scool JavaScript Course"
+                            src="https://raw.githubusercontent.com/rolling-scopes-school/js-fe-course-en/b920cf23482de2edaa0a25b62a0fd098eb67e91f/tasks/CV(markdown)/rs-school-logo.svg"
+                        >
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/ha308ing"
+                        class="link_icon link_github"
+                        >ha308ing</a
+                    >
+                </li>
+                <li>&copy; 2024</li>
+            </ul>
+        </footer>
+        <nav class="menu">
+            <ul class="cv_list">
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#english">English</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

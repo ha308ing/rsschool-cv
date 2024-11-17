@@ -1,0 +1,20 @@
+.link_icon::before {
+    content: " ";
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    margin-inline-end: 0.2em;
+}
+
+.link_repo::before {
+    background-image: url("../img//icons.svg#repo");
+}
+
+.link_deploy::before {
+    background-image: url("../img//icons.svg#deploy");
+}
+
+.link_github::before {
+    background-image: url("../img//icons.svg#github");
+}

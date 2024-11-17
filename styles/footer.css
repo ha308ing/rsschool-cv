@@ -1,0 +1,21 @@
+.cv_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 250px;
+    bottom: -250px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    z-index: -1;
+}
+
+.rss_logo {
+    width: 6rem;
+    height: auto;
+}
+
+@media (min-width: 1060px) {
+    .cv_footer {
+        z-index: initial;
+    }
+}

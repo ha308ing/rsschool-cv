@@ -1,0 +1,43 @@
+.cv_header {
+    min-block-size: 100vh;
+}
+
+.cv_header__name {
+    --font-size-ratio: 0.24;
+    --font-size-min: 1rem;
+    --font-size-var: calc(100vw * var(--font-size-ratio));
+    --font-size-max: calc(var(--base-width) * var(--font-size-ratio));
+    --font-size: clamp(
+        var(--font-size-min),
+        var(--font-size-var),
+        var(--font-size-max)
+    );
+    font-size: var(--font-size);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.cv_header_avatar {
+    animation: avatar_rotate infinite 2s linear;
+    height: 100%;
+    width: 50vw;
+}
+
+.cv_header_avatar:hover {
+    animation-play-state: paused;
+}
+
+@keyframes avatar_rotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 400px) {
+    .cv_header_avatar {
+        width: 25vh;
+    }
+}
